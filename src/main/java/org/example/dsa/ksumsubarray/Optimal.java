@@ -2,7 +2,7 @@ package org.example.dsa.ksumsubarray;
 
 public class Optimal {
     public static void main(String[] args) {
-        int[] input = {2,3,5};
+        int[] input = {2,3,5,0,1,2,0,-1,3};
 
         System.out.println(getNoOfSubArrays(input,5));
 
