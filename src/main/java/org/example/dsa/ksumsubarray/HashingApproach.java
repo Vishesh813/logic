@@ -29,7 +29,9 @@ public class HashingApproach {
                 maxLength = Math.max(maxLength,index+1);
             }
 
-            map.put(input[i],i);
+            if(!map.containsKey(sum)){
+                map.put(input[i],i);
+            }
         }
         return maxLength;
     }
