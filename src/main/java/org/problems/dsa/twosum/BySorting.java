@@ -1,4 +1,4 @@
-package org.example.dsa.twosum;
+package org.problems.dsa.twosum;
 
 import java.util.Arrays;
 

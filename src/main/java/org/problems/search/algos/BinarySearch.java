@@ -1,4 +1,4 @@
-package org.example.search.algos;
+package org.problems.search.algos;
 
 public class BinarySearch {
 

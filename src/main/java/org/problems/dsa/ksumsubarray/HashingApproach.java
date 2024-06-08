@@ -1,4 +1,4 @@
-package org.example.dsa.ksumsubarray;
+package org.problems.dsa.ksumsubarray;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.example.dsa;
+package org.problems.dsa;
 
 public class PosNeg {
     public static void main(String[] args) {

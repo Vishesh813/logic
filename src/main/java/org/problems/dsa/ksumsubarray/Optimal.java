@@ -1,4 +1,4 @@
-package org.example.dsa.ksumsubarray;
+package org.problems.dsa.ksumsubarray;
 
 public class Optimal {
     public static void main(String[] args) {

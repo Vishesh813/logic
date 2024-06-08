@@ -1,4 +1,4 @@
-package org.example.sorting.algos;
+package org.problems.sorting.algos;
 
 import java.util.Arrays;
 
