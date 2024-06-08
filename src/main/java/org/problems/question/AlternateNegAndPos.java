@@ -1,4 +1,4 @@
-package org.problems;
+package org.problems.question;
 
 import java.util.*;
 
