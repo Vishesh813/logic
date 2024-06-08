@@ -3,9 +3,9 @@ package org.problems.search.algos;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7,8,9,10,56,89};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 56, 89};
         int target = 89;
-        System.out.println(binarySearch(arr,target));
+        System.out.println(binarySearch(arr, target));
     }
 
     private static int binarySearch(int[] arr, int target) {
@@ -14,15 +14,15 @@ public class BinarySearch {
 
         int mid = 0;
         while (start <= end) {
-            mid = (start + end)/2;
+            mid = (start + end) / 2;
 
-            if(arr[mid] == target) {
+            if (arr[mid] == target) {
                 return mid;
             }
-            if(arr[mid] < target) {
+            if (arr[mid] < target) {
                 start = mid + 1;
             }
-            if(arr[mid] > target) {
+            if (arr[mid] > target) {
                 end = mid - 1;
             }
         }

@@ -14,8 +14,8 @@ public class LongestConSeq {
         int temp = arr[0];
         int i = 0;
 
-        while (i<arr.length) {
-            if(temp + 1 == arr[i]) {
+        while (i < arr.length) {
+            if (temp + 1 == arr[i]) {
                 sizeOfSequence++;
             }
             temp = arr[i];
