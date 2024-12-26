@@ -8,7 +8,8 @@ public class BruteForce {
 
         int[] arr1 = {2, 3, 5, 7, 9};
         int[] arr2 = {2, 19, 34, 56, 89};
-        Arrays.stream(mergeSortedArray(arr1, arr2)).forEach(System.out::println);
+        Arrays.stream(mergeSortedArray(arr1, arr2))
+              .forEach(System.out::println);
     }
 
     private static int[] mergeSortedArray(int[] arr1, int[] arr2) {
